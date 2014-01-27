@@ -1,5 +1,5 @@
 {
-	"name": "FacebookModule",
+	"name": "facebook/FacebookModule",
 	"description": "Zend Framework 2 Module that provides integration with Facebook PHP SDK",
 	"type": "library",
 	"license": "MIT",
