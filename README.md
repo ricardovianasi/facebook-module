@@ -1,1 +1,7 @@
-Sample, skeleton module for use with the ZF2 MVC layer.
+Zend Framework 2 - Facebook Module (V1.0.0)
+-----
+
+Facebook Module that provides integration Zend Framework 2 with [Facebook PHP SDK](https://developers.facebook.com/docs/reference/php)
+
+Usage
+-----
