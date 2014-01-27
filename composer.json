@@ -23,8 +23,8 @@
      },
      "autoload": {
         "psr-0": {
-            "FacebookModule\\": "src/",
-            "FacebookModuleTest\\": "tests/"
+            "FacebookModule\\": "/",
+            "FacebookModuleTest\\": "/"
         }
     },
     "minimum-stability": "dev"
