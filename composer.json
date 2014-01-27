@@ -1,0 +1,38 @@
+{
+	"name": "facebook-module",
+	"description": "Zend Framework 2 Module that provides integration with Facebook PHP SDK",
+	"type": "library",
+	"license": "MIT",
+	"keywords": [
+        "facebook",
+        "sdk",
+        "module",
+        "zf2"
+    ],
+    "homepage": "http://ricardoviana.me/facebook-module",
+    "authors": [
+    	{
+    		"name": "Ricardo Viana",
+    		"email": "ricardovianasi@gmail.com",
+    		"homepage": "http://ricardoviana.me"
+    	}
+    ],
+     "require": {
+     	"php": ">=5.3.3"
+     }
+     "suggest": {
+        "doctrine/data-fixtures": "Data Fixtures if you want to generate test data or bootstrap data for your deployments"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "FacebookModule\\": "src/",
+            "FacebookModuleTest\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.8.x-dev"
+        }
+    }
+}
