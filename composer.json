@@ -18,7 +18,8 @@
     	}
     ],
      "require": {
-     	"php": ">=5.3.3"
+     	"php": ">=5.3.3",
+     	"facebook/php-sdk": "@stable",
      },
      "suggest": {
         "doctrine/data-fixtures": "Data Fixtures if you want to generate test data or bootstrap data for your deployments"
