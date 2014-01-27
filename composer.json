@@ -21,5 +21,11 @@
      	"php": ">=5.3.3",
      	"facebook/php-sdk": "@stable"
      },
+     "autoload": {
+        "psr-0": {
+            "FacebookModule\\": "src/",
+            "FacebookModuleTest\\": "tests/"
+        }
+    },
     "minimum-stability": "dev"
 }
